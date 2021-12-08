@@ -1,0 +1,94 @@
+h1{
+    color :whitesmoke;
+    padding-left:150px;
+}
+
+.header{
+    background-color:salmon;
+    
+    display:flex;
+
+    justify-content: space-between;
+    
+}
+
+ a:link{
+
+    color: orchid;
+ }
+
+ a:visited{
+
+   color:springgreen;
+ }
+
+ .menu{
+
+    margin-right: 130px;
+
+ }
+
+ .menu a{
+     margin-left: 20px;
+ }
+
+body{
+
+    background-color: blanchedalmond;
+
+    background-attachment:scroll;
+
+
+}
+
+.paragraph{
+
+    border-style:inset;
+
+
+}
+.games{
+
+    display: flex;
+
+    flex-wrap:wrap;
+
+    justify-content:space-evenly;
+
+    border-style: double;
+
+}
+
+.socialmedia{
+
+    display: flex;   
+
+    justify-content: flex-end;
+
+    border-style: double;
+
+}
+
+.Projects{
+
+    position: relative;
+
+}
+
+.Projects p{
+
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.Projects:hover p{
+    opacity: 1;
+}
+
+.Projects:hover img{
+    opacity: 0.33;
+}
+
